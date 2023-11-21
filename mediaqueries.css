@@ -14,7 +14,7 @@
     overflow: hidden;
   }
   #page3 {
-    flex-wrap: wrap;
+    flex-direction: column;
     overflow: hidden;
   }
   #page4 {

@@ -382,7 +382,7 @@ header .menuIcon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  width: 100%;
   margin-top: 1rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
