@@ -113,10 +113,6 @@
     padding: 0 15px;
   }
 
-  .bestteachers img {
-    height: 100%;
-    width: 100%;
-  }
   #page7 {
     padding: 1rem 5px;
     overflow: hidden;
@@ -141,8 +137,5 @@
 @media (max-width: 400px) {
   .sidebar {
     width: 100%;
-  }
-  #page3 {
-    flex-wrap: wrap;
   }
 }
