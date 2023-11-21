@@ -16,6 +16,7 @@
   #page3 {
     flex-direction: column;
     overflow: hidden;
+    margin-bottom:1rem;
   }
   #page4 {
     padding: 2rem 1px;
