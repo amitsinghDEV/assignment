@@ -18,9 +18,10 @@
     overflow: hidden;
   }
   #page4 {
-    padding: 2rem 5px;
+    padding: 2rem 1px;
     grid-template-columns: repeat(1, 1fr);
     overflow: hidden;
+    justify-items: center;
   }
   #page5 {
     flex-direction: column;
