@@ -382,9 +382,8 @@ header .menuIcon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 1px;
+
   margin-top: 1rem;
-  width: 300px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .bestteachers img {
