@@ -1,0 +1,151 @@
+@media (max-width: 768px) {
+  header .menuIcon {
+    display: block;
+  }
+
+  header nav,
+  .btn-container {
+    display: none;
+  }
+  #page1 {
+    overflow: hidden;
+  }
+  #page2 {
+    overflow: hidden;
+  }
+  #page3 {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  #page4 {
+    padding: 2rem 5px;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+  }
+  #page5 {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #page6 {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #page6 .statcard {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  #page1 {
+    flex-direction: column-reverse;
+    padding: 0 5px;
+    gap: 1px;
+  }
+  #page1 .heroImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #page1 .heroImg img {
+    width: 70%;
+    height: 70%;
+  }
+  #page1 .heroDesc {
+    width: 100%;
+  }
+  #page1 .heroDesc h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #page1 .heroDesc h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #page1 .heroDesc h2 span {
+    max-width: 60%;
+    padding: 2px;
+    border-radius: 0px;
+  }
+  #page1 .cta-btn {
+    flex-direction: column;
+  }
+  .appStat {
+    margin-top: 2rem;
+  }
+  .page3Heading {
+    font-size: 2rem;
+  }
+  #page2 {
+    padding: 1rem 10px;
+    overflow: hidden;
+  }
+  #page2 h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  #page2 .DifferenceOne {
+    flex-direction: column;
+    padding: 5px 5px;
+  }
+  #page2 .DO2 {
+    flex-direction: column-reverse;
+  }
+  #page2 .DifferenceOne .left video {
+    width: 100%;
+    height: 100%;
+  }
+  #page2 .DifferenceOne .left {
+    width: 100%;
+  }
+  #page2 .right {
+    width: 100%;
+  }
+  #page6 {
+    padding: 1rem 5px;
+    overflow: hidden;
+  }
+  .page6Sheading {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    padding: 1rem 15px;
+  }
+  .page6Subheading {
+    padding: 0 15px;
+  }
+  .bestteachers {
+    height: 350px;
+    width: 350px;
+  }
+  .bestteachers img {
+    height: 100%;
+    width: 100%;
+  }
+  #page7 {
+    padding: 1rem 5px;
+    overflow: hidden;
+  }
+  #page7 h3 {
+    font-size: 1.5rem;
+  }
+  .app_btn_container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hideimg {
+    display: none;
+  }
+  .page5Superheading {
+    font-size: 2rem;
+  }
+  footer {
+    overflow: hidden;
+  }
+}
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+  #page3 {
+    flex-wrap: wrap;
+  }
+}
